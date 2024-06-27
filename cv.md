@@ -34,7 +34,7 @@ At all stages of my way, programming has played a key role. My strength lies in 
 
 ### Code example
 
-**Description:** Given a string of space separated numbers, and the task is to return the highest and lowest number.\_
+**Description:** _Given a string of space separated numbers, and the task is to return the highest and lowest number._
 
 ```javascript
 function highAndLow(numbers) {
@@ -49,3 +49,34 @@ function highAndLow(numbers) {
   return `${max} ${min}`;
 }
 ```
+
+---
+
+### Work Experience
+
+**Portfolio Website** (in progress)  
+**Movie Search Application** (in progress)
+
+---
+
+### Education
+
+**Courses:**
+
+- **RS Schools:** «JavaScript/Front-end» (in progress)
+- **Udemy:** "The Ultimate React Course 2024: React, Next.js, Redux & More" (in progress)
+- **Udemy:** "The Complete JavaScript Course 2024: From Zero to Expert!" (2024)
+- **Udemy:** "Advanced CSS and Sass: Flexbox, Grid, Animations and More!" (2024)
+
+**Higher Education:**
+
+**Specialist in Corporate Finance**  
+Saint Petersburg State University of Economics and Finance  
+September 2007 - June 2012
+
+---
+
+### Languages
+
+- English: Intermediate (B1)
+- Russian: Native
