@@ -14,7 +14,7 @@
 
 ### About Me
 
-I aim to kickstart a professional career in frontend development, leveraging my web development skills to foster business growth, while actively pursuing continuous learning and development in this field.
+I aim to start a professional career in frontend development, leveraging my web development skills to foster business growth while actively pursuing continuous learning and development in this field.
 
 My journey in programming began in 2009 when I worked as an HTML coder for the official website of the university where I earned my degree in finance. Later, I worked in the finance department of a large holding company. My responsibilities included analyzing and optimizing business processes using Visual Basic, Python, and SQL. Since 2020, I have been an entrepreneur in the field of machine embroidery, which has given me valuable experience in graphic design and international trade.
 
@@ -63,7 +63,7 @@ function highAndLow(numbers) {
 
 **Courses:**
 
-- **RS Schools:** «JavaScript/Front-end» (in progress)
+- **RS Schools:** "JavaScript/Front-end" (in progress)
 - **Udemy:** "The Ultimate React Course 2024: React, Next.js, Redux & More" (in progress)
 - **Udemy:** "The Complete JavaScript Course 2024: From Zero to Expert!" (2024)
 - **Udemy:** "Advanced CSS and Sass: Flexbox, Grid, Animations and More!" (2024)
