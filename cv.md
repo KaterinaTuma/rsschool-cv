@@ -12,7 +12,7 @@
 
 ---
 
-### About me
+### About Me
 
 I aim to kickstart a professional career in frontend development, leveraging my web development skills to foster business growth, while actively pursuing continuous learning and development in this field.
 
@@ -32,7 +32,7 @@ At all stages of my way, programming has played a key role. My strength lies in 
 
 ---
 
-### Code example
+### Code Example
 
 **Description:** _Given a string of space separated numbers, and the task is to return the highest and lowest number._
 
