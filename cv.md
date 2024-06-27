@@ -31,3 +31,21 @@ At all stages of my way, programming has played a key role. My strength lies in 
 - **Methodologies:** BEM
 
 ---
+
+### Code example
+
+**Description:** Given a string of space separated numbers, and the task is to return the highest and lowest number.\_
+
+```javascript
+function highAndLow(numbers) {
+  // Split the string into an array of numbers
+  const arr = numbers.split(" ").map(Number);
+
+  // Find max and min values
+  const max = Math.max(...arr);
+  const min = Math.min(...arr);
+
+  //Return a string with max and min values
+  return `${max} ${min}`;
+}
+```
