@@ -227,3 +227,46 @@ img {
   margin-left: 32px;
   list-style: disc;
 }
+
+/*person*/
+.person {
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 14px solid var(--border-color);
+}
+
+.person__wrapper {
+  align-self: center;
+}
+
+.person__name {
+  padding-left: 60px;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 8px;
+}
+
+.person__name span {
+  color: var(--color-secondary);
+}
+
+.person__speciality {
+  padding-left: 65px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.person__connor {
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.person__connor-icon {
+  width: 150px;
+  align-self: flex-start;
+}
