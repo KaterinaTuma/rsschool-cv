@@ -127,6 +127,7 @@ img {
 
 .menu {
   display: flex;
+  align-items: center;
   gap: 56px;
 }
 
@@ -406,4 +407,100 @@ img {
 .footer_github-icon:hover,
 .rs-icon:hover {
   fill: var(--color-white);
+}
+
+@media (max-width: 1200px) {
+  .main__left-column {
+    margin-left: 40px;
+  }
+
+  .avatar__image {
+    width: 240px;
+    height: 240px;
+  }
+
+  .contact__item {
+    gap: 12px;
+  }
+
+  .contact_icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer__wrapper {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 922px){
+  .menu {
+    gap: 42px;
+  }
+  .header__wrapper {
+    padding: 10px 15px;
+  }
+
+  .main__left-column {
+    margin-left: 0px;
+  }
+
+  .avatar {
+    margin-bottom: auto;
+  }
+
+  .avatar__image {
+    width: 200px;
+    height: 200px;
+    margin-block: auto;
+  }
+
+  .contact,
+  .languages {
+    padding: 24px 8px 0px 16px;
+  }
+  
+  .contact__item {
+    gap: 6px;
+  }
+
+  .contact_icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .avatar,
+  .person {
+    height: 220px;
+    border-bottom: 8px solid var(--border-color);
+  }
+
+  .person__name {
+    padding-left: 24px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-size: 48px;
+    letter-spacing: 6px;
+  }
+
+  .person__speciality {
+    padding-left: 28px;
+    font-size: 18px;
+  }
+
+  .person__connor {
+    display: none;
+  }
+
+  .summary,
+  .skills,
+  .education,
+  .experience,
+  .example {
+    padding: 24px 24px 0px 24px;
+  }
+
+  .footer__wrapper {
+    padding-inline: 16px;
+  }
 }
