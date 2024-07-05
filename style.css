@@ -299,19 +299,6 @@ img {
   margin-bottom: 10px;
 }
 
-.skills__list,
-.languages__list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.skills__item,
-.languages__item {
-  margin-left: 32px;
-  list-style: disc;
-}
-
 .info {
   margin-bottom: 14px;
   display: grid;
@@ -364,4 +351,59 @@ img {
 .code__comment {
   color: #555555;
   font-style: italic;
+}
+
+/* footer */
+.footer {
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  color: var(--color-primary);
+  background: var(--color-secondary);
+}
+
+.footer__wrapper {
+  padding: 15px 26px 15px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__github {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer_github-icon {
+  width: 36px;
+  height: 36px;
+  fill: var(--color-primary);
+  transition: fill 0.3s ease-in-out;
+}
+
+.footer__github:hover,
+.footer__github:focus {
+  color: var(--color-white);
+}
+
+.footer__github:hover .footer_github-icon,
+.footer__github:focus .footer_github-icon {
+  fill: var(--color-white);
+}
+
+.copyright {
+  font-family: sans-serif;
+}
+
+.rs-icon {
+  height: 42px;
+  fill: var(--color-primary);
+  transition: fill 0.3s ease-in-out;
+}
+
+.footer_github-icon:hover,
+.rs-icon:hover {
+  fill: var(--color-white);
 }
