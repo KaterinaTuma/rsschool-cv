@@ -113,3 +113,33 @@ img {
   width: 100%;
 }
 
+/* header */
+.header {
+  display: flex;
+  justify-content: end;
+  color: var(--color-primary);
+  background: var(--border-color);
+}
+
+.header__wrapper {
+  padding: 10px 48px 10px 36px;
+}
+
+.menu {
+  display: flex;
+  gap: 56px;
+}
+
+.menu__item {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+.menu__link {
+  transition: color 0.3s ease-in-out;
+}
+
+.menu__link:hover {
+  color: #ffffff;
+}
