@@ -727,7 +727,7 @@ img {
   }
 
   .main__left-column {
-    display: none;
+    flex-direction: column;
   }
 
   .burger {
