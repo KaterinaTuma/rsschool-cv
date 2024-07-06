@@ -733,5 +733,32 @@ img {
   .burger {
     display: block;
   }
+
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  .profile {
+    margin-top: 40px;
+  }
+
+  .menu.active {
+    display: block;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    background: var(--bg-color-secondary);
+    z-index: 2;
+  }
+  .menu__item {
+    padding: 20px 15px;
+    font-size: 24px;
+    border-bottom: 1px solid var(--border-color);
+  }
 }
 

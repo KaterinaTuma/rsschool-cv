@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>CV Katerina Tumakova</title>
 </head>
 <body>
@@ -11,7 +12,7 @@
     <header class="header">
       <div class="header__wrapper">
         <nav>
-          <ul class="menu">
+          <ul class="menu" id="menu">
             <li class="menu__item">
               <a class="menu__link" href="#contact">Contacts</a>
             </li>
@@ -281,15 +282,15 @@
           </p>
           <pre class="code"><code>
 <span class="code__key">function</span> <span class="code__method">highAndLow</span>(numbers) {
-<span class="code__comment">// Split the string into an array of numbers</span>
-const arr = numbers.<span class="code__method">split</span>(<span class="code__string">&quot; &quot;</span>).<span class="code__method">map</span>(<span class="code__method">Number</span>);
+  <span class="code__comment">// Split the string into an array of numbers</span>
+  const arr = numbers.<span class="code__method">split</span>(<span class="code__string">&quot; &quot;</span>).<span class="code__method">map</span>(<span class="code__method">Number</span>);
 
-<span class="code__comment">// Find max and min values</span>
-<span class="code__key">const</span> max = <span class="code__method">Math.max</span>(...arr);
-<span class="code__key">const</span> min = <span class="code__method">Math.min</span>(...arr);
+  <span class="code__comment">// Find max and min values</span>
+  <span class="code__key">const</span> max = <span class="code__method">Math.max</span>(...arr);
+  <span class="code__key">const</span> min = <span class="code__method">Math.min</span>(...arr);
 
-<span class="code__comment">// Return a string with max and min values</span>
-<span class="code__key">return</span> <span class="code__string"> `${max} ${min}`</span>;
+  <span class="code__comment">// Return a string with max and min values</span>
+  <span class="code__key">return</span> <span class="code__string"> `${max} ${min}`</span>;
 }
           </code></pre>
           <pre class="code code-sm"><code>
