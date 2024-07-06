@@ -38,7 +38,7 @@
       </div>
     </header>
     <main class="main">
-      <section class="frofile">
+      <div class="profile">
         <div class="avatar">
           <img
             class="avatar__image"
@@ -60,16 +60,9 @@
             </svg>
           </div>
         </section>
-      </section>
+      </div>
       <div class="grid">
       <div class="main__left-column">
-        <!-- <div class="avatar">
-          <img
-            class="avatar__image"
-            src="assets/img/tumaAvatar.jpg"
-            alt="Katerina Tumakova Avatar"
-         >
-        </div> -->
         <section class="contact" id="contact">
           <h2 class="contact__title">Contact</h2>
           <ul class="contact__list">
@@ -149,20 +142,6 @@
       </section>
       </div>
       <div class="main__right-column">
-        <!-- <section class="person">
-          <div class="person__wrapper">
-            <h1 class="person__name">
-              Kate
-              <span>Tumakova</span>
-            </h1>
-            <div class="person__speciality">Junior Frontend Developer</div>
-          </div>
-          <div class="person__connor">
-            <svg class="person__connor-icon" viewBox="0 0 239 254" xmlns="http://www.w3.org/2000/svg">
-              <path d="M239 0H0L22 29.5H209.5V231L239 253.5V0Z" fill="#DFCDBE"></path>
-            </svg>
-          </div>
-        </section> -->
         <section class="summary" id="summary">
           <h2 class="summary__title">About Me</h2>
           <div class="summary__text-block">
@@ -310,6 +289,17 @@ const arr = numbers.<span class="code__method">split</span>(<span class="code__s
 <span class="code__key">return</span> <span class="code__string"> `${max} ${min}`</span>;
 }
           </code></pre>
+          <pre class="code code-sm"><code>
+<span class="code__key">function</span> <span class="code__method">highAndLow</span>(numbers) {
+  const arr = numbers.<span class="code__method">split</span>(<span class="code__string">&quot; &quot;</span>)
+    .<span class="code__method">map</span>(<span class="code__method">Number</span>);
+
+  <span class="code__key">const</span> max = <span class="code__method">Math.max</span>(...arr);
+  <span class="code__key">const</span> min = <span class="code__method">Math.min</span>(...arr);
+
+  <span class="code__key">return</span> <span class="code__string"> `${max} ${min}`</span>;
+}
+                      </code></pre>
         </section>
       </div>
     </div>
@@ -332,7 +322,7 @@ const arr = numbers.<span class="code__method">split</span>(<span class="code__s
           </svg>
           <span>Katerina Tuma</span>
         </a>
-        <div class="footer__coperight">
+        <div class="footer__copyright">
           <span class="copyright">&copy;</span>
           2024 by Katerina Tumakova
         </div>

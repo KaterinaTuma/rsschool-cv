@@ -146,7 +146,7 @@ img {
 }
 
 /* main */
-.frofile {
+.profile {
   display: grid;
   grid-template-columns: 11fr 25fr;
   border-bottom: 14px solid var(--border-color);
@@ -343,6 +343,10 @@ img {
   background: var(--bg-color-secondary);
 }
 
+.code.code-sm {
+  display: none;
+}
+
 .code__key {
   color: #0077cc;
 }
@@ -449,7 +453,7 @@ img {
     padding: 10px 15px;
   }
 
-  .frofile {
+  .profile {
     border-bottom: 8px solid var(--border-color);
   }
 
@@ -518,8 +522,162 @@ img {
 }
 
 @media (max-width: 768px) {  
+  .menu {
+    gap: 18px;
+  }
+
+  .avatar {
+    border: none;
+  }
+
+  .avatar,
+  .person {
+    height: 180px;
+  }
+
+  .avatar__image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .person__name {
+    padding-left: 12px;
+    margin-bottom: 8px;
+    font-size: 48px;
+    letter-spacing: 4px;
+  }
+
+  .person__speciality {
+    padding-left: 14px;
+  }
+
+  .menu__item {
+    letter-spacing: 0.5px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+    
+  .main__left-column {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding-bottom: 16px;
+  }
+
+  .contact,
+  .languages {
+  padding: 16px 24px 0px 24px;
+  }
+
+  .contact__title,
+  .languages__title {
+    margin-bottom: 12px;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+  }
+
+  .contact__list li:not(:last-child) {
+    margin-bottom: 12px;
+  }
+
+  .skills__list,
+  .languages__list {
+    gap: 8px;
+  }
+
+  .summary__title,
+  .skills__title,
+  .education__title,
+  .experience__title,
+  .example__title {
+    margin-bottom: 12px;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+  }
+
+  .footer__github span{
+    display: none;
+  }
+
+  .footer__copyright {
+  font-size: 14px;
+  }
 }
 
 @media (max-width: 576px) {
+  .profile {
+    padding: 16px 15px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .person {
+    justify-content: center;
+  }
+
+  .avatar,
+  .person {
+    height: auto;
+  }
+
+  .avatar__image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .person__name {
+    padding-left: 0px;
+    font-size: 36px;
+    letter-spacing: 1px;
+  }
+
+  .person__speciality {
+    padding-left: 0px;
+  }
+
+  .summary,
+  .skills,
+  .education,
+  .experience,
+  .example {
+    padding: 24px 15px 0px 15px;
+  }
+
+  .footer__wrapper {
+    padding-inline: 10px;
+  }
+
+  .footer_github-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .rs-icon {
+    height: 26px;
+  }
+
+  .footer__copyright {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+  }
+
+  .code {
+    display: none;
+  }
+
+  .code.code-sm {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .main__left-column {
+display: none;
+  }
 }
 
